@@ -1,0 +1,25 @@
+./gradlew sonarqube \
+  -Dsonar.projectKey=OnJava8 \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=8e36c45274db9ed84933d9e08b06c732a304c168
+  
+  export PATH=$PATH:/home/ubuntu/environment/sonar/bin
+  
+  
+  sonar-scanner \
+  -Dsonar.projectKey=JS \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=https://b6bac19d602340c0a8a806c6e05e7821.vfs.cloud9.eu-west-1.amazonaws.com \
+  -Dsonar.login=8e36c45274db9ed84933d9e08b06c732a304c168
+  
+  sonar-scanner \
+  -Dsonar.projectKey=JS \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=8e36c45274db9ed84933d9e08b06c732a304c168
+  
+  sonar-scanner \
+  -Dsonar.projectKey=Cobol \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=8e36c45274db9ed84933d9e08b06c732a304c168
